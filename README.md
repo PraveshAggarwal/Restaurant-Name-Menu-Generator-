@@ -116,3 +116,16 @@ flowchart LR
 
 This project is open-source and available for educational and personal use.
 
+---
+
+## ⚠️ Warning
+
+> **Note:** The `tinyllama` model was used here purely for **learning purposes**. It is an extremely lightweight model and can be **very slow** in response time. Due to its limited capabilities, it may sometimes produce **incorrect or irrelevant answers**.
+>
+> For better accuracy and performance, consider switching to a more capable model such as:
+> - `llama3` — `ollama pull llama3`
+> - `mistral` — `ollama pull mistral`
+> - `gemma2` — `ollama pull gemma2`
+>
+> You can swap the model in `langchain_helper.py` by changing the `model` parameter in `OllamaLLM(model="tinyllama")` to your preferred model.
+
